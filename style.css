@@ -1,0 +1,65 @@
+:root {
+  --main-text-color: #f9f9f9;
+}
+
+
+.success, .error {
+  color: var(--main-text-color);
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
+body {
+  height: 10vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url("https://images.pexels.com/photos/545063/pexels-photo-545063.jpeg?cs=srgb&dl=adult-tan-and-white-french-bulldog-545063.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#guest-form {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 3px;
+  color: var(--main-text-color);
+}
+#guest-list {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: .9rem;
+  border-radius: 3px;
+  color: var(--main-text-color);
+}
+label {
+  font-weight: bold;
+  font-size: 1.9rem;
+  text-shadow: .3rem .3rem .2rem rgba(0, 0, 0, .4);
+}
+.text {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333;
+  text-shadow: .4rem .3rem .2rem rgba(255, 255, 255, .5);
+}
+#submit {
+  border-color: var(--main-text-color);
+  color: var(--main-text-color);
+  border: 3px solid var(--main-text-color);
+  transition: all .3s ease;
+}
+#submit:hover {
+  background-color: var(--main-text-color);
+  opacity: 0.8;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  text-shadow: .4rem .3rem .2rem rgba(0, 0, 0, .4);
+}
